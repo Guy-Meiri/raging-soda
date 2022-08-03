@@ -24,12 +24,21 @@ const Home: NextPage = () => {
         <p className={styles.description}>
           {"Because regaular soda just isn't as exiting"}
         </p>
+        <div className={styles.sodaImage}>
+          <Image
+            onClick={playSodaSound}
+            src="/soda-faucet.jpeg"
+            width={200}
+            height={200}
+            alt="soda"
+          />
+        </div>
         <div className={styles.grid}>
           <a
             href="https://en.wikipedia.org/wiki/Carbonated_water"
             className={styles.card}
           >
-            <h2>Documentation &rarr;</h2>
+            <h2>Documentation </h2>
             <p>Learn about the rich history of Soda water</p>
           </a>
 
@@ -41,15 +50,6 @@ const Home: NextPage = () => {
             height={100}
             alt="soda"
           /> */}
-          <div className={styles.sodaImage}>
-            <Image
-              onClick={playSodaSound}
-              src="/soda-faucet.jpeg"
-              width={150}
-              height={150}
-              alt="soda"
-            />
-          </div>
         </div>
         {/* <Image
           style={{ zIndex: -2, opacity: 0.12, pointerEvents: "none" }}
