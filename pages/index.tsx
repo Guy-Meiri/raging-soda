@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         <Image src="/heart2.png" alt="Vercel Logo" height={72} width={72} />
         <h1 className={styles.title}>Raging Soda</h1>
         <p className={styles.description}>
-          {"Because regaular soda just isn't as exiting"}
+          {"Because regaular soda just isn't as exciting"}
         </p>
         <div className={styles.sodaImage}>
           <Image
